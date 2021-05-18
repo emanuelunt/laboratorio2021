@@ -12,8 +12,8 @@
 
 
     <form action="resolver.php">
-
-        <input type="text" name="nombre" id="nombre" placeholder="Ingrese su Nombre" maxlength="6" required readonly>
+        <label for="nombre">Nombre:</label>
+        <input type="text" name="nombre" id="nombre" placeholder="Ingrese su Nombre" maxlength="6" required >
         <br>
         <input type="email" name="correo" id="corro" placeholder="mi@correo.com">
 
@@ -25,8 +25,26 @@
             <option value="argentina">Argentina</option>
             <option value="brasil">Brasil</option>
             <option value="Uruaguay">Uruguay</option>
-
         </select>
+
+        <br>
+
+        <label for="telefono">Teléfono:</label>
+        <input type="tel" name="" id="telefono">
+
+
+        <br>
+
+        <input type="radio" name="genero" id="hombre" value="hombre"> <label for="hombre">Hombre</label>
+        <input type="radio" name="genero" id="mujer"  value="mujer"><label for="mujer">Mujer</label>
+
+        <br>
+
+        <input type="checkbox" name="" id="termino"><label for="termino">TErminos y Condiciones</label>
+        <input type="checkbox" name="" id="recibir"><label for="recibir">TErminos y Condiciones</label>
+        
+
+
 
 
 
